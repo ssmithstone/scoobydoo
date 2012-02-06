@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63AA5E2A39DAEB6416785455 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785454 /* UIKit.framework */; };
+		63AA5E2A39DAEB6416785457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785456 /* Foundation.framework */; };
+		63AA5E2A39DAEB6416785459 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785458 /* CoreGraphics.framework */; };
+		63AA5E2A39DAEB641678545F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB641678545E /* InfoPlist.strings */; };
+		63AA5E2A39DAEB6416785461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785460 /* main.m */; };
+		63AA5E2A39DAEB6416785465 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785464 /* SDAppDelegate.m */; };
+		63AA5E2A39DAEB6416785468 /* SDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785467 /* SDFirstViewController.m */; };
+		63AA5E2A39DAEB641678546A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785469 /* first.png */; };
+		63AA5E2A39DAEB641678546C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB641678546B /* first@2x.png */; };
+		63AA5E2A39DAEB641678546F /* SDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB641678546E /* SDSecondViewController.m */; };
+		63AA5E2A39DAEB6416785471 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785470 /* second.png */; };
+		63AA5E2A39DAEB6416785473 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785472 /* second@2x.png */; };
+		63AA5E2A39DAEB6416785476 /* SDFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785475 /* SDFirstViewController.xib */; };
+		63AA5E2A39DAEB6416785479 /* SDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785478 /* SDSecondViewController.xib */; };
+		F887903214E06DC700A4CCE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785460 /* main.m */; };
+		F887903314E06DC700A4CCE9 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785464 /* SDAppDelegate.m */; };
+		F887903414E06DC700A4CCE9 /* SDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785467 /* SDFirstViewController.m */; };
+		F887903514E06DC700A4CCE9 /* SDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB641678546E /* SDSecondViewController.m */; };
+		F887903714E06DC700A4CCE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785454 /* UIKit.framework */; };
+		F887903814E06DC700A4CCE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785456 /* Foundation.framework */; };
+		F887903914E06DC700A4CCE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785458 /* CoreGraphics.framework */; };
+		F887903B14E06DC700A4CCE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB641678545E /* InfoPlist.strings */; };
+		F887903C14E06DC700A4CCE9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785469 /* first.png */; };
+		F887903D14E06DC700A4CCE9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB641678546B /* first@2x.png */; };
+		F887903E14E06DC700A4CCE9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785470 /* second.png */; };
+		F887903F14E06DC700A4CCE9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785472 /* second@2x.png */; };
+		F887904014E06DC700A4CCE9 /* SDFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785475 /* SDFirstViewController.xib */; };
+		F887904114E06DC700A4CCE9 /* SDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785478 /* SDSecondViewController.xib */; };
+		F887904E14E06E1B00A4CCE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785454 /* UIKit.framework */; };
+		F887904F14E06E1B00A4CCE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785456 /* Foundation.framework */; };
+		F887905014E06E1B00A4CCE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA5E2A39DAEB6416785458 /* CoreGraphics.framework */; };
+		F887905614E06E1B00A4CCE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F887905414E06E1B00A4CCE9 /* InfoPlist.strings */; };
+		F887905814E06E1B00A4CCE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F887905714E06E1B00A4CCE9 /* main.m */; };
+		F887906714E06E4A00A4CCE9 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F887906614E06E4A00A4CCE9 /* GHUnitIOS.framework */; };
+		F887906914E06F1800A4CCE9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F887906814E06F1800A4CCE9 /* CFNetwork.framework */; };
+		F887907414E06F2E00A4CCE9 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = F887906C14E06F2E00A4CCE9 /* my_first.feature */; };
+		F887907514E06F2E00A4CCE9 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = F887906E14E06F2E00A4CCE9 /* launch_steps.rb */; };
+		F887907614E06F2E00A4CCE9 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = F887907014E06F2E00A4CCE9 /* env.rb */; };
+		F887907714E06F2E00A4CCE9 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F887907114E06F2E00A4CCE9 /* frank_static_resources.bundle */; };
+		F887907814E06F2E00A4CCE9 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F887907214E06F2E00A4CCE9 /* libFrank.a */; };
+		F887907914E06F2E00A4CCE9 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F887907314E06F2E00A4CCE9 /* libShelley.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63AA5E2A39DAEB641678544B /* ScoobyDooIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoobyDooIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AA5E2A39DAEB6416785454 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63AA5E2A39DAEB6416785456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63AA5E2A39DAEB6416785458 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63AA5E2A39DAEB641678545C /* ScoobyDooIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ScoobyDooIOS-Info.plist"; sourceTree = "<group>"; };
+		63AA5E2A39DAEB641678545D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785462 /* ScoobyDooIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoobyDooIOS-Prefix.pch"; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785463 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785464 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785466 /* SDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFirstViewController.h; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785467 /* SDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFirstViewController.m; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785469 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		63AA5E2A39DAEB641678546B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		63AA5E2A39DAEB641678546D /* SDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSecondViewController.h; sourceTree = "<group>"; };
+		63AA5E2A39DAEB641678546E /* SDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSecondViewController.m; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785470 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785472 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785474 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDFirstViewController.xib; sourceTree = "<group>"; };
+		63AA5E2A39DAEB6416785477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDSecondViewController.xib; sourceTree = "<group>"; };
+		F887904514E06DC700A4CCE9 /* ScoobyDooIOS copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScoobyDooIOS copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887904714E06DC800A4CCE9 /* ScoobyDooIOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ScoobyDooIOS copy-Info.plist"; path = "/Users/ssmithstone/Development/tutorials/objective-c/ScoobyDooIOS/ScoobyDooIOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		F887904C14E06E1B00A4CCE9 /* ScoobyDooIOS Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScoobyDooIOS Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887905314E06E1B00A4CCE9 /* ScoobyDooIOS Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoobyDooIOS Tests-Info.plist"; sourceTree = "<group>"; };
+		F887905514E06E1B00A4CCE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F887905714E06E1B00A4CCE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F887905914E06E1B00A4CCE9 /* ScoobyDooIOS Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoobyDooIOS Tests-Prefix.pch"; sourceTree = "<group>"; };
+		F887906614E06E4A00A4CCE9 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "ScoobyDooIOS Tests/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		F887906814E06F1800A4CCE9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F887906C14E06F2E00A4CCE9 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		F887906E14E06F2E00A4CCE9 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		F887907014E06F2E00A4CCE9 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		F887907114E06F2E00A4CCE9 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		F887907214E06F2E00A4CCE9 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		F887907314E06F2E00A4CCE9 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63AA5E2A39DAEB6416785451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AA5E2A39DAEB6416785455 /* UIKit.framework in Frameworks */,
+				63AA5E2A39DAEB6416785457 /* Foundation.framework in Frameworks */,
+				63AA5E2A39DAEB6416785459 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887903614E06DC700A4CCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887906914E06F1800A4CCE9 /* CFNetwork.framework in Frameworks */,
+				F887903714E06DC700A4CCE9 /* UIKit.framework in Frameworks */,
+				F887903814E06DC700A4CCE9 /* Foundation.framework in Frameworks */,
+				F887903914E06DC700A4CCE9 /* CoreGraphics.framework in Frameworks */,
+				F887907814E06F2E00A4CCE9 /* libFrank.a in Frameworks */,
+				F887907914E06F2E00A4CCE9 /* libShelley.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887904914E06E1B00A4CCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887904E14E06E1B00A4CCE9 /* UIKit.framework in Frameworks */,
+				F887904F14E06E1B00A4CCE9 /* Foundation.framework in Frameworks */,
+				F887905014E06E1B00A4CCE9 /* CoreGraphics.framework in Frameworks */,
+				F887906714E06E4A00A4CCE9 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63AA5E2A39DAEB6416785447 = {
+			isa = PBXGroup;
+			children = (
+				F887906A14E06F2E00A4CCE9 /* Frank */,
+				F887906814E06F1800A4CCE9 /* CFNetwork.framework */,
+				F887905114E06E1B00A4CCE9 /* ScoobyDooIOS Tests */,
+				63AA5E2A39DAEB6416785448 /* Products */,
+				63AA5E2A39DAEB6416785453 /* Frameworks */,
+				63AA5E2A39DAEB641678545A /* ScoobyDooIOS */,
+				F887904714E06DC800A4CCE9 /* ScoobyDooIOS copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		63AA5E2A39DAEB6416785448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63AA5E2A39DAEB641678544B /* ScoobyDooIOS.app */,
+				F887904514E06DC700A4CCE9 /* ScoobyDooIOS copy.app */,
+				F887904C14E06E1B00A4CCE9 /* ScoobyDooIOS Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63AA5E2A39DAEB6416785453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F887906614E06E4A00A4CCE9 /* GHUnitIOS.framework */,
+				63AA5E2A39DAEB6416785458 /* CoreGraphics.framework */,
+				63AA5E2A39DAEB6416785456 /* Foundation.framework */,
+				63AA5E2A39DAEB6416785454 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63AA5E2A39DAEB641678545A /* ScoobyDooIOS */ = {
+			isa = PBXGroup;
+			children = (
+				63AA5E2A39DAEB6416785478 /* SDSecondViewController.xib */,
+				63AA5E2A39DAEB6416785475 /* SDFirstViewController.xib */,
+				63AA5E2A39DAEB6416785472 /* second@2x.png */,
+				63AA5E2A39DAEB6416785470 /* second.png */,
+				63AA5E2A39DAEB641678546E /* SDSecondViewController.m */,
+				63AA5E2A39DAEB641678546D /* SDSecondViewController.h */,
+				63AA5E2A39DAEB641678546B /* first@2x.png */,
+				63AA5E2A39DAEB6416785469 /* first.png */,
+				63AA5E2A39DAEB6416785467 /* SDFirstViewController.m */,
+				63AA5E2A39DAEB6416785466 /* SDFirstViewController.h */,
+				63AA5E2A39DAEB6416785464 /* SDAppDelegate.m */,
+				63AA5E2A39DAEB6416785463 /* SDAppDelegate.h */,
+				63AA5E2A39DAEB641678545B /* Supporting Files */,
+			);
+			path = ScoobyDooIOS;
+			sourceTree = "<group>";
+		};
+		63AA5E2A39DAEB641678545B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63AA5E2A39DAEB6416785462 /* ScoobyDooIOS-Prefix.pch */,
+				63AA5E2A39DAEB6416785460 /* main.m */,
+				63AA5E2A39DAEB641678545E /* InfoPlist.strings */,
+				63AA5E2A39DAEB641678545C /* ScoobyDooIOS-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F887905114E06E1B00A4CCE9 /* ScoobyDooIOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F887905214E06E1B00A4CCE9 /* Supporting Files */,
+			);
+			path = "ScoobyDooIOS Tests";
+			sourceTree = "<group>";
+		};
+		F887905214E06E1B00A4CCE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F887905314E06E1B00A4CCE9 /* ScoobyDooIOS Tests-Info.plist */,
+				F887905414E06E1B00A4CCE9 /* InfoPlist.strings */,
+				F887905714E06E1B00A4CCE9 /* main.m */,
+				F887905914E06E1B00A4CCE9 /* ScoobyDooIOS Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F887906A14E06F2E00A4CCE9 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				F887906B14E06F2E00A4CCE9 /* features */,
+				F887907114E06F2E00A4CCE9 /* frank_static_resources.bundle */,
+				F887907214E06F2E00A4CCE9 /* libFrank.a */,
+				F887907314E06F2E00A4CCE9 /* libShelley.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		F887906B14E06F2E00A4CCE9 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				F887906C14E06F2E00A4CCE9 /* my_first.feature */,
+				F887906D14E06F2E00A4CCE9 /* step_definitions */,
+				F887906F14E06F2E00A4CCE9 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		F887906D14E06F2E00A4CCE9 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				F887906E14E06F2E00A4CCE9 /* launch_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		F887906F14E06F2E00A4CCE9 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				F887907014E06F2E00A4CCE9 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63AA5E2A39DAEB641678544C /* ScoobyDooIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AA5E2A39DAEB641678544D /* Build configuration list for PBXNativeTarget "ScoobyDooIOS" */;
+			buildPhases = (
+				63AA5E2A39DAEB6416785450 /* Sources */,
+				63AA5E2A39DAEB6416785451 /* Frameworks */,
+				63AA5E2A39DAEB6416785452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoobyDooIOS;
+			productName = ScoobyDooIOS;
+			productReference = 63AA5E2A39DAEB641678544B /* ScoobyDooIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F887903014E06DC700A4CCE9 /* ScoobyDooIOS Frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F887904214E06DC700A4CCE9 /* Build configuration list for PBXNativeTarget "ScoobyDooIOS Frankified" */;
+			buildPhases = (
+				F887903114E06DC700A4CCE9 /* Sources */,
+				F887903614E06DC700A4CCE9 /* Frameworks */,
+				F887903A14E06DC700A4CCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScoobyDooIOS Frankified";
+			productName = ScoobyDooIOS;
+			productReference = F887904514E06DC700A4CCE9 /* ScoobyDooIOS copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F887904B14E06E1B00A4CCE9 /* ScoobyDooIOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F887906314E06E1B00A4CCE9 /* Build configuration list for PBXNativeTarget "ScoobyDooIOS Tests" */;
+			buildPhases = (
+				F887904814E06E1B00A4CCE9 /* Sources */,
+				F887904914E06E1B00A4CCE9 /* Frameworks */,
+				F887904A14E06E1B00A4CCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScoobyDooIOS Tests";
+			productName = "ScoobyDooIOS Tests";
+			productReference = F887904C14E06E1B00A4CCE9 /* ScoobyDooIOS Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63AA5E2A39DAEB6416785445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 63AA5E2A39DAEB6416785446 /* Build configuration list for PBXProject "ScoobyDooIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63AA5E2A39DAEB6416785447;
+			productRefGroup = 63AA5E2A39DAEB6416785448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63AA5E2A39DAEB641678544C /* ScoobyDooIOS */,
+				F887903014E06DC700A4CCE9 /* ScoobyDooIOS Frankified */,
+				F887904B14E06E1B00A4CCE9 /* ScoobyDooIOS Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63AA5E2A39DAEB6416785452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AA5E2A39DAEB641678545F /* InfoPlist.strings in Resources */,
+				63AA5E2A39DAEB641678546A /* first.png in Resources */,
+				63AA5E2A39DAEB641678546C /* first@2x.png in Resources */,
+				63AA5E2A39DAEB6416785471 /* second.png in Resources */,
+				63AA5E2A39DAEB6416785473 /* second@2x.png in Resources */,
+				63AA5E2A39DAEB6416785476 /* SDFirstViewController.xib in Resources */,
+				63AA5E2A39DAEB6416785479 /* SDSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887903A14E06DC700A4CCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887903B14E06DC700A4CCE9 /* InfoPlist.strings in Resources */,
+				F887903C14E06DC700A4CCE9 /* first.png in Resources */,
+				F887903D14E06DC700A4CCE9 /* first@2x.png in Resources */,
+				F887903E14E06DC700A4CCE9 /* second.png in Resources */,
+				F887903F14E06DC700A4CCE9 /* second@2x.png in Resources */,
+				F887904014E06DC700A4CCE9 /* SDFirstViewController.xib in Resources */,
+				F887904114E06DC700A4CCE9 /* SDSecondViewController.xib in Resources */,
+				F887907414E06F2E00A4CCE9 /* my_first.feature in Resources */,
+				F887907514E06F2E00A4CCE9 /* launch_steps.rb in Resources */,
+				F887907614E06F2E00A4CCE9 /* env.rb in Resources */,
+				F887907714E06F2E00A4CCE9 /* frank_static_resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887904A14E06E1B00A4CCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887905614E06E1B00A4CCE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63AA5E2A39DAEB6416785450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AA5E2A39DAEB6416785461 /* main.m in Sources */,
+				63AA5E2A39DAEB6416785465 /* SDAppDelegate.m in Sources */,
+				63AA5E2A39DAEB6416785468 /* SDFirstViewController.m in Sources */,
+				63AA5E2A39DAEB641678546F /* SDSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887903114E06DC700A4CCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887903214E06DC700A4CCE9 /* main.m in Sources */,
+				F887903314E06DC700A4CCE9 /* SDAppDelegate.m in Sources */,
+				F887903414E06DC700A4CCE9 /* SDFirstViewController.m in Sources */,
+				F887903514E06DC700A4CCE9 /* SDSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887904814E06E1B00A4CCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887905814E06E1B00A4CCE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63AA5E2A39DAEB641678545E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63AA5E2A39DAEB641678545D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63AA5E2A39DAEB6416785475 /* SDFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63AA5E2A39DAEB6416785474 /* en */,
+			);
+			name = SDFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		63AA5E2A39DAEB6416785478 /* SDSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63AA5E2A39DAEB6416785477 /* en */,
+			);
+			name = SDSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		F887905414E06E1B00A4CCE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F887905514E06E1B00A4CCE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63AA5E2A39DAEB6416785449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63AA5E2A39DAEB641678544A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63AA5E2A39DAEB641678544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoobyDooIOS/ScoobyDooIOS-Prefix.pch";
+				INFOPLIST_FILE = "ScoobyDooIOS/ScoobyDooIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63AA5E2A39DAEB641678544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoobyDooIOS/ScoobyDooIOS-Prefix.pch";
+				INFOPLIST_FILE = "ScoobyDooIOS/ScoobyDooIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F887904314E06DC700A4CCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoobyDooIOS/ScoobyDooIOS-Prefix.pch";
+				INFOPLIST_FILE = "ScoobyDooIOS copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "ScoobyDooIOS copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F887904414E06DC700A4CCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoobyDooIOS/ScoobyDooIOS-Prefix.pch";
+				INFOPLIST_FILE = "ScoobyDooIOS copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "ScoobyDooIOS copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F887906414E06E1B00A4CCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ScoobyDooIOS Tests\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoobyDooIOS Tests/ScoobyDooIOS Tests-Prefix.pch";
+				INFOPLIST_FILE = "ScoobyDooIOS Tests/ScoobyDooIOS Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F887906514E06E1B00A4CCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ScoobyDooIOS Tests\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoobyDooIOS Tests/ScoobyDooIOS Tests-Prefix.pch";
+				INFOPLIST_FILE = "ScoobyDooIOS Tests/ScoobyDooIOS Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63AA5E2A39DAEB6416785446 /* Build configuration list for PBXProject "ScoobyDooIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AA5E2A39DAEB6416785449 /* Release */,
+				63AA5E2A39DAEB641678544A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AA5E2A39DAEB641678544D /* Build configuration list for PBXNativeTarget "ScoobyDooIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AA5E2A39DAEB641678544E /* Release */,
+				63AA5E2A39DAEB641678544F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F887904214E06DC700A4CCE9 /* Build configuration list for PBXNativeTarget "ScoobyDooIOS Frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F887904314E06DC700A4CCE9 /* Release */,
+				F887904414E06DC700A4CCE9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F887906314E06E1B00A4CCE9 /* Build configuration list for PBXNativeTarget "ScoobyDooIOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F887906414E06E1B00A4CCE9 /* Release */,
+				F887906514E06E1B00A4CCE9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63AA5E2A39DAEB6416785445 /* Project object */;
+}
