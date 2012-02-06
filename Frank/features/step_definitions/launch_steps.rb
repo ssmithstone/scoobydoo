@@ -18,3 +18,8 @@ end
 Given /^I launch the app using iOS (\d\.\d) and the (iphone|ipad) simulator$/ do |sdk, version|
   launch_app app_path, sdk, version
 end
+
+
+Then /^I should see the "([^"]*)" TabBarButton$/ do |arg1|
+  check_element_exists("view:'UITabBarButton' marked:'#{arg1}'")
+end

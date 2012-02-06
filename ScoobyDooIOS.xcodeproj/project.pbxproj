@@ -48,6 +48,7 @@
 		F887907714E06F2E00A4CCE9 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F887907114E06F2E00A4CCE9 /* frank_static_resources.bundle */; };
 		F887907814E06F2E00A4CCE9 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F887907214E06F2E00A4CCE9 /* libFrank.a */; };
 		F887907914E06F2E00A4CCE9 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F887907314E06F2E00A4CCE9 /* libShelley.a */; };
+		F887907914E06F2E00A4CCEB /* home_view.feature in Resources */ = {isa = PBXBuildFile; fileRef = F887907914E06F2E00A4CCEA /* home_view.feature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		F887907114E06F2E00A4CCE9 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
 		F887907214E06F2E00A4CCE9 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
 		F887907314E06F2E00A4CCE9 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+		F887907914E06F2E00A4CCEA /* home_view.feature */ = {isa = PBXFileReference; lastKnownFileType = file.feature; path = home_view.feature; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 		F887906B14E06F2E00A4CCE9 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				F887907914E06F2E00A4CCEA /* home_view.feature */,
 				F887906C14E06F2E00A4CCE9 /* my_first.feature */,
 				F887906D14E06F2E00A4CCE9 /* step_definitions */,
 				F887906F14E06F2E00A4CCE9 /* support */,
@@ -340,6 +343,7 @@
 				63AA5E2A39DAEB6416785473 /* second@2x.png in Resources */,
 				63AA5E2A39DAEB6416785476 /* SDFirstViewController.xib in Resources */,
 				63AA5E2A39DAEB6416785479 /* SDSecondViewController.xib in Resources */,
+				F887907914E06F2E00A4CCEB /* home_view.feature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

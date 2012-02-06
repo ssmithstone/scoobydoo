@@ -10,3 +10,4 @@ Given the device is in landscape orientation
 Given the device is in portrait orientation
 Given the device is in landscape orientation
 Given the device is in portrait orientation
+Given I quit the simulator
